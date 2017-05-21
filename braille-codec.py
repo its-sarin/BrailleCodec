@@ -33,7 +33,7 @@ if options.dec:
 
 def main():
     s = ""
-    if enc != None:
+    if enc:
         for n in enc:
             if n in alphabet:
                 s += alphabraille[alphabet.index(n)]
@@ -43,7 +43,7 @@ def main():
         print(s)
         return
 
-    if dec != None:
+    if dec:
         for n in dec:
             if n in alphabraille:
                 s += alphabet[alphabraille.index(n)]
