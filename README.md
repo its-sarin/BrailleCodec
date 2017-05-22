@@ -5,14 +5,14 @@ A small python script to encode plain text to Braille or decode Braille to plain
 
 To encode a plain text string:
 ```sh
-$ python braille-codec.py -e myname
+$ python braille_codec.py -e myname
 $ ⠍⠽⠝⠁⠍⠑
 ```
 
 
 To decode a Braille string:
 ```sh
-$ python braille-codec.py -d ⠍⠽⠝⠁⠍⠑
+$ python braille_codec.py -d ⠍⠽⠝⠁⠍⠑
 $ myname
 ```
 
